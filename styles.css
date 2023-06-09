@@ -102,3 +102,43 @@ button {
     align-items: center;
 }
 
+.explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explanatory-video img {
+    width: 60px;
+    margin-top: 10px;
+  }
+
+.publish {
+    padding-left: 1rem;
+}
+
+.publish h3 {
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+    margin-top: 0px;
+    color: #025157;
+}
+
+.publish > p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.publish > div > form {
+    display: flex;
+}
+
+.publish > div > form p {
+    color: #025157;
+    margin-right: 18px;
+  }
+
+
